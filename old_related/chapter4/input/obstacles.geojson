@@ -1,0 +1,20 @@
+{
+	"type":"FeatureCollection",
+	"features":[
+	{"type":"Feature","properties":{"id": "l1_1", "description": "A curb crack near JC", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.3063063621521,38.82938630582017]}},
+	{"type":"Feature","properties":{"id": "l1_2", "description": "I see a maintenance fence", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.30746507644653,38.82907706136274]}},
+	{"type":"Feature","properties":{"id": "l2_1", "description": "The steps are very steep in Enterprise Hall", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.30722904205321,38.830715205900766]}},
+	{"type":"Feature","properties":{"id": "l1_3", "description": "There is a big tree branch on the curb", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.30645656585693,38.828893185643075]}},
+	{"type":"Feature","properties":{"id": "l2_2", "description": "The door's glass is broken", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.3056416666667,38.8295]}},
+	{"type":"Feature","properties":{"id": "l1_4", "description": "Water is leaking from bathroom into the hallway", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.3056083333333,38.8295777777778]}},
+	{"type":"Feature","properties":{"id": "l1_4", "description": "Trash on the grass", "marker-color": "#000000",
+	"marker-symbol": "roadblock"},"geometry":{"type":"Point","coordinates":[-77.3057527777778,38.8295388888889]}}
+
+	]
+}

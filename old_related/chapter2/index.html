@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Gaz V1</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="ref.js"></script>
+	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<style></style>
+	
+	<script>
+      
+       $( document ).ready(function()
+       	{
+    		
+    		$("#toggleMessage").click(toggleParagraph);
+    		
+    		initMap();
+  		});
+  	
+  </script>
+</head>
+<body>
+  <div id='cartodb-map'></div>
+  <div id='menu'>
+    <a href="#intersection" id="intersection" class="button intersection">Intersection</a> 
+    <a href="#segment" id="segment" class="button segment">Segment</a> 
+    <a href="#convexhull" id="convexhull" class="button convexhull">Convexhull</a>
+  </div>
+  <div id="messageB">
+  	<button id="toggleMessage" class="button">Hide Message</button>
+  </div>
+  <div id="messageP">
+  	<p id="pMessage"></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- Title and charset -->
+		<title>Geospatial Footprints</title>
+		<meta charset="utf-8" />
+		<!-- viewport and mobile/icon -->
+	  	<meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+	  	<meta name="apple-mobile-web-app-capable" content="yes" />
+	  	<meta name="mobile-web-app-capable" content="yes" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+		<!-- style files -->
+		<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css' rel='stylesheet' />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/indexStyle.css" />
+		<!-- scripts -->
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
+		<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js'></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="js/test.js"></script>
+
+	</head>
+
+	<body>
+		<!-- map div -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="mbMap"></div>
+
+		<script>
+
+		     $(document).ready(function()
+		     	{
+
+			     	// Initialize the map
+			     	initMap();
+
+				});
+
+		</script>
+	</body>
+
+</html>
