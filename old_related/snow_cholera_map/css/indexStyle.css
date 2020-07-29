@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#mbMap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.pageTitle {
+	
+	text-align: center;
+	
+}
+
+.well{
+    background: rgba(255,215,0,0.75);
+    color: #008000;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.messageArea {
+
+	top: 17px;
+	left: 15px;
+}
+
+
+.orangeSpan {
+
+	color: #FF4500;
+	font-weight: bold;
+}
+
+@media (max-width: 768px){ 
+	.well{font-size: 12px}
+}
